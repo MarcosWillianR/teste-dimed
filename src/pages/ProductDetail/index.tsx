@@ -119,7 +119,7 @@ const ProductDetail: React.FC = () => {
       <Header showCartButton />
 
       <ProductDetailContent>
-        <ProductDetailScrollView>
+        <ProductDetailScrollView contentContainerStyle={{ padding: 12 }}>
           {product !== null && !isLoading && (
             <>
               <ProductImageContent>

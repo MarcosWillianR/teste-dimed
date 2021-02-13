@@ -31,8 +31,7 @@ export const ProductDetailContent = styled.View`
   background: ${BACKGROUND_CARD};
   margin: 30px 12px;
   border-radius: 10px;
-  padding: 12px;
-  max-height: ${height - 110}px;
+  max-height: ${height - 110 - 60}px;
   ${defaultBoxShadow()}
 `;
 
